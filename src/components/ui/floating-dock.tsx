@@ -124,6 +124,7 @@ const FloatingDockDesktop = ({
         className={cn(
           "flex gap-2 md:gap-4",
           "mx-auto h-16 items-end  rounded-2xl bg-white/30 dark:bg-black/50  px-4 pb-3",
+          "max-w-full overflow-x-auto overflow-y-hidden [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden",
           className
         )}
       >
