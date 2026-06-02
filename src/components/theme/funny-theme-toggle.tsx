@@ -24,7 +24,7 @@ export default function FunnyThemeToggle({
     setMounted(true);
   }, []);
 
-  const toggleTheme = async (newTheme: string, event?: React.MouseEvent) => {
+  const toggleTheme = async (newTheme: "light" | "dark" | "system", event?: React.MouseEvent) => {
     // @ts-ignore
     if (!document.startViewTransition || !event) {
       setTheme(newTheme);
