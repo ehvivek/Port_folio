@@ -80,4 +80,10 @@ This site is optimized for deployment on **Vercel**.
 
 ## 🤝 Acknowledgements
 
-A lil inspired by Nivesh's portfolio website. 
+A lil inspired by Nivesh's portfolio website.
+
+---
+
+## 📄 Copyright
+
+© 2026 Vivek Kumar. All rights reserved.
