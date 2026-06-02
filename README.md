@@ -11,7 +11,7 @@ Welcome to my personal developer portfolio! This project showcases my journey as
 - **Space Theme** — Floating particles on a dark canvas for a cosmic vibe.
 - **Dark Mode** — Full theme support with an immersive aesthetic.
 - **Responsive** — Perfectly scales across all devices.
-- **Contact Form** — Email delivery via Resend.
+- **Contact Form** — Get in touch directly through the site.
 - **Easter Eggs** — Try typing my name anywhere on the site! 😉
 
 ## 💻 Featured Projects
@@ -29,7 +29,6 @@ Here are some of the key projects highlighted in this portfolio:
 | **Styling** | Tailwind CSS, Shadcn UI, Aceternity UI |
 | **Animation** | GSAP, Framer Motion |
 | **3D** | Spline Runtime |
-| **Email** | Resend |
 
 ---
 
@@ -54,7 +53,7 @@ Here are some of the key projects highlighted in this portfolio:
     ```
 
 3. **Set up environment variables:**
-    Copy `.env.example` to `.env.local` and add your Resend API key for the contact form:
+    Copy `.env.example` to `.env.local` and fill in any required values:
     ```bash
     cp .env.example .env.local
     ```
@@ -74,7 +73,7 @@ This site is optimized for deployment on **Vercel**.
 
 1. Push your code to your GitHub repository.
 2. Connect the repository to [Vercel](https://vercel.com).
-3. Add your `RESEND_API_KEY` to the environment variables in the Vercel dashboard.
+3. Add any necessary environment variables in the Vercel dashboard.
 4. Deploy!
 
 ---
